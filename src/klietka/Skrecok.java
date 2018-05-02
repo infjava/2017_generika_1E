@@ -9,7 +9,7 @@ package klietka;
  *
  * @author janik
  */
-public class Skrecok {
+public class Skrecok extends Zviera {
 
     public Skrecok() {
     }

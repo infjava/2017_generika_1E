@@ -9,9 +9,6 @@ package klietka;
  *
  * @author janik
  */
-public class Lev extends Zviera {
-
-    public Lev() {
-    }
+abstract class Zviera {
     
 }
