@@ -9,14 +9,14 @@ package klietka;
  *
  * @author janik
  */
-class Klietka {
-    private Object zviera;
+class Klietka<E> {
+    private E zviera;
 
     public Klietka() {
         this.zviera = null;
     }
     
-    void vloz(Object zviera) {
+    void vloz(E zviera) {
         this.zviera = zviera;
     }
 

@@ -9,7 +9,7 @@ package klietka;
  *
  * @author janik
  */
-public class Lev extends Zviera {
+public class Lev {
 
     public Lev() {
     }
