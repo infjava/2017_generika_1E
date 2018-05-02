@@ -20,5 +20,19 @@ public class KlietkaMain {
         k.vloz(new Lev());
         k.vlozPotravu(new Skrecok());
         k.vypisZvieratko();
+        
+        /*** priklad 2. ***/
+        for (Integer cislo : new Postupnost(1, 10)) {
+            System.out.println("- " + cislo);
+        }
+        
+        /*
+        prepisane:
+            Iterator<Integer> prst = new Postupnost(1, 10).iterator();
+            while (prst.hasNext()) {
+                Integer cislo = prst.next();
+                System.out.println("- " + cislo);
+            }
+        */
     }
 }
