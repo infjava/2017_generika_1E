@@ -19,6 +19,10 @@ class Klietka<E extends Zviera> {
     void vloz(E zviera) {
         this.zviera = zviera;
     }
+    
+    void vlozPotravu(Jedlo potrava) {
+        this.zviera.zozer(potrava);
+    }
 
     void vypisZvieratko() {
         if (this.zviera == null) {

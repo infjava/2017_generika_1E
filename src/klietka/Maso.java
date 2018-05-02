@@ -9,12 +9,9 @@ package klietka;
  *
  * @author janik
  */
-abstract class Zviera {
-    void zozer(Jedlo potrava) {
-        System.out.println(
-                this.getClass().getSimpleName()
-                + " ti dakuje za " +
-                potrava.getClass().getSimpleName()
-        );
+public class Maso extends Jedlo {
+
+    public Maso() {
     }
+    
 }
