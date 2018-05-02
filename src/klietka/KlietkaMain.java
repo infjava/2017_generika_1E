@@ -34,5 +34,11 @@ public class KlietkaMain {
                 System.out.println("- " + cislo);
             }
         */
+        
+        /*** priklad 3. (samostatny) ***/
+        System.out.println("Prvocisla po 100:");
+        for (Integer cislo : new Prvocisla(100)) {
+            System.out.println("- " + cislo);
+        }
     }
 }
