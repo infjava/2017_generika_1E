@@ -18,6 +18,7 @@ public class KlietkaMain {
         // TODO code application logic here
         Klietka k = new Klietka();
         k.vloz(new Skrecok());
+        k.vloz(new Lev());
         k.vypisZvieratko();
     }
     

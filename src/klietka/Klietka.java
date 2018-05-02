@@ -10,13 +10,13 @@ package klietka;
  * @author janik
  */
 class Klietka {
-    private Skrecok zviera;
+    private Object zviera;
 
     public Klietka() {
         this.zviera = null;
     }
     
-    void vloz(Skrecok zviera) {
+    void vloz(Object zviera) {
         this.zviera = zviera;
     }
 
@@ -24,7 +24,7 @@ class Klietka {
         if (this.zviera == null) {
             System.out.println("Klietka je prazdna");
         } else {
-            System.out.println("V klietke je skrecok");
+            System.out.println("V klietke je " + this.zviera.getClass().getSimpleName());
         }
     }
 }
