@@ -9,6 +9,6 @@ package klietka;
  *
  * @author janik
  */
-class Jedlo {
+class Jedlo<T extends Zviera> {
     
 }

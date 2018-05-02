@@ -20,7 +20,7 @@ class Klietka<E extends Zviera> {
         this.zviera = zviera;
     }
     
-    void vlozPotravu(Jedlo potrava) {
+    void vlozPotravu(Jedlo<E> potrava) {
         this.zviera.zozer(potrava);
     }
 
