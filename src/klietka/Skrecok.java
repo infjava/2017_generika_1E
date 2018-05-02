@@ -9,7 +9,7 @@ package klietka;
  *
  * @author janik
  */
-public class Skrecok extends Zviera {
+public class Skrecok extends Zviera implements Jedlo<Lev> {
 
     public Skrecok() {
     }

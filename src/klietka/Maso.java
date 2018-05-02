@@ -9,7 +9,7 @@ package klietka;
  *
  * @author janik
  */
-public class Maso extends Jedlo<Lev> {
+public class Maso implements Jedlo<Lev> {
 
     public Maso() {
     }

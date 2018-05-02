@@ -9,6 +9,6 @@ package klietka;
  *
  * @author janik
  */
-class Kukurica extends Jedlo<Skrecok> {
+class Kukurica implements Jedlo<Skrecok> {
     
 }

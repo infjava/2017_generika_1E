@@ -16,9 +16,9 @@ public class KlietkaMain {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Klietka<Skrecok> k = new Klietka<Skrecok>();
-        k.vloz(new Skrecok());
-        k.vlozPotravu(new Kukurica());
+        Klietka<Lev> k = new Klietka<Lev>();
+        k.vloz(new Lev());
+        k.vlozPotravu(new Skrecok());
         k.vypisZvieratko();
     }
 }
